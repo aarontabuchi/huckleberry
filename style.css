@@ -21,13 +21,13 @@ p {
 
 .max-width-wrapper {
   max-width: 800px;
-  padding: 32px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .intro-chunk p {
   font-size: 1.75rem;
-  max-width: 430px;
+  max-width: 400px;
   margin: 24px 0px;
 }
 
@@ -51,14 +51,15 @@ main {
 .indented-heading {
   width: fit-content;
   padding: 24px 36px;
-  margin-left: -48px;
+  margin-left: -36px;
   margin-bottom: 16px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: hsl(45deg, 100%, 40%) 8px solid;
 }
 
 .card {
-  padding: 32px;
+  padding: 24px;
+  margin: -24px;
   padding-top: 8px;
   background-color: white;
   border-bottom: 8px hsl(0deg, 0%, 40%) solid;
